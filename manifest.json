@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "updated": "2026-11-24T23:34:00Z",
+  "updated": "2026-11-24T23:40:00Z",
   "os": [
     {
       "id": "lineageos",
       "name": "LineageOS",
-      "tagline": "Community Android build",
+      "tagline": "Community Android builds",
       "tag": "lineage-os",
       "banner": "https://raw.githubusercontent.com/miyoubi/switcher-releases/main/img/lineageos.webp",
       "available": true,
@@ -27,7 +27,28 @@
             "url": "https://github.com/miyoubi/switcher-releases/releases/download/lineage-os/patched-lineageos-23.2-20260507.zip",
             "sha256": "2c49d73a523712671345303e810c3fb6eff5149eb39d6366e610a92614d85f52",
             "size": 39501521
-          }
+          },
+          "stage": "lineageos"
+        },
+        {
+          "version": "19.1",
+          "build": "12L",
+          "sdk": 32,
+          "date": "2026-11-19",
+          "rom": {
+            "source": "https://sourceforge.net/projects/andyyan-gsi/files/lineage-19.x/",
+            "url": "https://sourceforge.net/projects/andyyan-gsi/files/lineage-19.x/",
+            "download": "https://master.dl.sourceforge.net/project/andyyan-gsi/lineage-19.x/lineage-19.1-20250606-UNOFFICIAL-arm64_bvN.img.gz?viasf=1",
+            "filename": "lineage-19.1-20250606-UNOFFICIAL-arm64_bvN.img.gz",
+            "sha256": "",
+            "size": 0
+          },
+          "patched": {
+            "url": "https://github.com/miyoubi/switcher-releases/releases/download/lineage-os-19/patched-lineageos19.zip",
+            "sha256": "ef9f7ce523a0e80c373c5f82895bf708546a51ce1434b5f41aa63a65a060ba71",
+            "size": 34986084
+          },
+          "stage": "lineageos19"
         }
       ]
     },
@@ -49,35 +70,6 @@
             "url": "https://github.com/miyoubi/switcher-releases/releases/download/nothing-os/patched-nothingos-16-2610141615.zip",
             "sha256": "7c1dce8ac598cb8dc63172ae93f97c496c5f5736dd24d61f09312326f7d02a13",
             "size": 22448522
-          }
-        }
-      ]
-    },
-    {
-      "id": "lineageos19",
-      "name": "LineageOS 19.1",
-      "tagline": "Android 12 community build",
-      "tag": "lineage-os-19",
-      "banner": "https://raw.githubusercontent.com/miyoubi/switcher-releases/main/img/lineageos.webp",
-      "available": true,
-      "versions": [
-        {
-          "version": "19.1",
-          "build": "12L",
-          "sdk": 32,
-          "date": "2026-11-19",
-          "rom": {
-            "source": "https://sourceforge.net/projects/andyyan-gsi/files/lineage-19.x/",
-            "url": "https://sourceforge.net/projects/andyyan-gsi/files/lineage-19.x/",
-            "download": "https://master.dl.sourceforge.net/project/andyyan-gsi/lineage-19.x/lineage-19.1-20250606-UNOFFICIAL-arm64_bvN.img.gz?viasf=1",
-            "filename": "lineage-19.1-20250606-UNOFFICIAL-arm64_bvN.img.gz",
-            "sha256": "",
-            "size": 0
-          },
-          "patched": {
-            "url": "https://github.com/miyoubi/switcher-releases/releases/download/lineage-os-19/patched-lineageos19.zip",
-            "sha256": "ef9f7ce523a0e80c373c5f82895bf708546a51ce1434b5f41aa63a65a060ba71",
-            "size": 34986084
           }
         }
       ]
