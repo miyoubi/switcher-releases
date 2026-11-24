@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-24T23:26:00Z",
+  "updated": "2026-11-24T23:34:00Z",
   "os": [
     {
       "id": "lineageos",
@@ -66,7 +66,14 @@
           "build": "12L",
           "sdk": 32,
           "date": "2026-11-19",
-          "rom": null,
+          "rom": {
+            "source": "https://sourceforge.net/projects/andyyan-gsi/files/lineage-19.x/",
+            "url": "https://sourceforge.net/projects/andyyan-gsi/files/lineage-19.x/",
+            "download": "https://master.dl.sourceforge.net/project/andyyan-gsi/lineage-19.x/lineage-19.1-20250606-UNOFFICIAL-arm64_bvN.img.gz?viasf=1",
+            "filename": "lineage-19.1-20250606-UNOFFICIAL-arm64_bvN.img.gz",
+            "sha256": "",
+            "size": 0
+          },
           "patched": {
             "url": "https://github.com/miyoubi/switcher-releases/releases/download/lineage-os-19/patched-lineageos19.zip",
             "sha256": "ef9f7ce523a0e80c373c5f82895bf708546a51ce1434b5f41aa63a65a060ba71",
