@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "updated": "2026-11-24T19:40:00Z",
+  "os": [
+    {
+      "id": "lineageos",
+      "name": "LineageOS",
+      "tagline": "Community Android build",
+      "tag": "lineage-os",
+      "banner": "https://raw.githubusercontent.com/miyoubi/switcher-releases/main/img/lineageos.webp",
+      "available": true,
+      "versions": [
+        {
+          "version": "23.2",
+          "build": "2026.05.07",
+          "sdk": 36,
+          "date": "2026-05-07",
+          "rom": {
+            "source": "https://github.com/MisterZtr/LineageOS_gsi/releases",
+            "url": "https://github.com/MisterZtr/LineageOS_gsi/releases",
+            "download": "https://sourceforge.net/projects/misterztr-gsi/files/LineageOS/Android%2016/LineageOS-23.2-20260507-GAPPS-EXT4-GSI.7z/download",
+            "filename": "LineageOS-23.2-20260507-GAPPS-EXT4-GSI.7z",
+            "sha256": "",
+            "size": 0
+          },
+          "patched": {
+            "url": "https://github.com/miyoubi/switcher-releases/releases/download/lineage-os/patched-lineageos-23.2-20260507.zip",
+            "sha256": "",
+            "size": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "nothingos",
+      "name": "Nothing OS",
+      "tagline": "Nothing OS 16 GSI (qssi)",
+      "tag": "nothing-os",
+      "banner": "https://raw.githubusercontent.com/miyoubi/switcher-releases/main/img/nothingos.jpg",
+      "available": false,
+      "versions": [
+        {
+          "version": "16",
+          "build": "BQ2A.250721.001-BP2A.250605.031.A3",
+          "sdk": 36,
+          "date": "2026-11-13",
+          "rom": null,
+          "patched": {
+            "url": "https://github.com/miyoubi/switcher-releases/releases/download/nothing-os/patched-nothingos-16-2610141615.zip",
+            "sha256": "",
+            "size": 0
+          }
+        }
+      ]
+    }
+  ]
+}
