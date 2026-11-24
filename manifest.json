@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-24T22:48:00Z",
+  "updated": "2026-11-24T23:26:00Z",
   "os": [
     {
       "id": "lineageos",
@@ -49,6 +49,28 @@
             "url": "https://github.com/miyoubi/switcher-releases/releases/download/nothing-os/patched-nothingos-16-2610141615.zip",
             "sha256": "7c1dce8ac598cb8dc63172ae93f97c496c5f5736dd24d61f09312326f7d02a13",
             "size": 22448522
+          }
+        }
+      ]
+    },
+    {
+      "id": "lineageos19",
+      "name": "LineageOS 19.1",
+      "tagline": "Android 12 community build",
+      "tag": "lineage-os-19",
+      "banner": "https://raw.githubusercontent.com/miyoubi/switcher-releases/main/img/lineageos.webp",
+      "available": true,
+      "versions": [
+        {
+          "version": "19.1",
+          "build": "12L",
+          "sdk": 32,
+          "date": "2026-11-19",
+          "rom": null,
+          "patched": {
+            "url": "https://github.com/miyoubi/switcher-releases/releases/download/lineage-os-19/patched-lineageos19.zip",
+            "sha256": "ef9f7ce523a0e80c373c5f82895bf708546a51ce1434b5f41aa63a65a060ba71",
+            "size": 34986084
           }
         }
       ]
