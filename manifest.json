@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-24T19:48:00Z",
+  "updated": "2026-11-24T22:48:00Z",
   "os": [
     {
       "id": "lineageos",
@@ -25,8 +25,8 @@
           },
           "patched": {
             "url": "https://github.com/miyoubi/switcher-releases/releases/download/lineage-os/patched-lineageos-23.2-20260507.zip",
-            "sha256": "b451eed16f31321858d0bec8960d06acc2b793381cd2137bffe927445c07b052",
-            "size": 5953552
+            "sha256": "2c49d73a523712671345303e810c3fb6eff5149eb39d6366e610a92614d85f52",
+            "size": 39501521
           }
         }
       ]
@@ -47,8 +47,8 @@
           "rom": null,
           "patched": {
             "url": "https://github.com/miyoubi/switcher-releases/releases/download/nothing-os/patched-nothingos-16-2610141615.zip",
-            "sha256": "8bcc16bdd17a7e3dda0873a2f53f4e81a52adf445ececc3ef4d1d286fb716f30",
-            "size": 20552582
+            "sha256": "7c1dce8ac598cb8dc63172ae93f97c496c5f5736dd24d61f09312326f7d02a13",
+            "size": 22448522
           }
         }
       ]
